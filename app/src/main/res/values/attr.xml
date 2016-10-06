@@ -1,0 +1,21 @@
+<resources>
+    <declare-styleable name="MyTestView1">
+        <attr name="exampleString" format="string" />
+        <attr name="exampleDimension" format="dimension" />
+        <attr name="exampleColor" format="color" />
+        <attr name="exampleDrawable" format="color|reference" />
+    </declare-styleable>
+
+    <declare-styleable name="MyTestView2">
+        <attr name="ballSize" format="dimension"/>
+        <attr name="ballColor" format="color"/>
+        <attr name="viewBackgroud" format="color"/>
+    </declare-styleable>
+
+    <declare-styleable name="MyTestView3">
+        <attr name="ballSizes" format="dimension"/>
+        <attr name="startColor" format="color"/>
+        <attr name="endColor" format="color"/>
+    </declare-styleable>
+
+</resources>
